@@ -85,7 +85,7 @@ const RegisterForm = () => {
         <Input.Password />
       </Form.Item>
 
-      {/* <Form.Item
+      <Form.Item
         name="confirm"
         label="Confirm Password"
         dependencies={['password']}
@@ -108,7 +108,7 @@ const RegisterForm = () => {
         ]}
       >
         <Input.Password />
-      </Form.Item> */}
+      </Form.Item>
 
       <Form.Item
         name="name"

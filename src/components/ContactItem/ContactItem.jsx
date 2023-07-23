@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { deleteContact, editContact } from 'redux/operations';
 import { Modal, Input, Button, message, Popconfirm } from 'antd';
-import { ReactComponent as DeleteIcon } from '../icons/delete-user.svg';
+import { ReactComponent as AddIcon } from '../icons/delete-user.svg';
 import { ReactComponent as EditIcon } from '../icons/edit-user.svg';
 import {
   ContactItems,
@@ -68,7 +68,7 @@ function ContactItem({ contact }) {
         okText="Yes"
         cancelText="No"
       >
-        <Btn danger>{<DeleteIcon />}</Btn>
+        <Btn danger>{<AddIcon />}</Btn>
       </Popconfirm>
 
       <Modal
