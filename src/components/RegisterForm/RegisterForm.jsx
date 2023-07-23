@@ -113,7 +113,7 @@ const RegisterForm = () => {
       <Form.Item
         name="name"
         label="Name"
-        tooltip="What do you want others to call you?"
+        tooltip="Fill out your name"
         rules={[
           {
             required: true,

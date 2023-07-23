@@ -19,7 +19,7 @@ export const Input = styled.input`
 export const Button = styled.button`
   padding: 10px 20px;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 20px;
   border-radius: 6px;
   border: 1px solid;
   :hover {

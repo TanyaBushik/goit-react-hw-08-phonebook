@@ -3,8 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from 'redux/operations';
 import Notiflix from 'notiflix';
 import { selectContacts } from 'redux/selectors';
-import { IoMdPersonAdd } from 'react-icons/io';
-// import { ReactComponent as AddIcon } from '../icons/plus-user.svg';
+import { ReactComponent as AddIcon } from '../icons/add-user.svg';
 import { Form, Input, Text, Button } from './ContactForm.styled';
 
 const ContactForm = () => {
@@ -88,7 +87,7 @@ const ContactForm = () => {
       />
 
       <Button type="submit">
-        <IoMdPersonAdd />
+        <AddIcon />
       </Button>
     </Form>
   );
