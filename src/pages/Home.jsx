@@ -5,7 +5,7 @@ import {
   FcTouchscreenSmartphone,
   FcList,
 } from 'react-icons/fc';
-import { Title } from './Home.styled';
+import { Title, Container } from './Home.styled';
 
 // const styles = {
 //   container: {
@@ -24,8 +24,7 @@ import { Title } from './Home.styled';
 // };
 
 const Home = () => (
-  // <Container>
-  <div>
+  <Container>
     <Title>Home page of the Phonebook</Title>
     <p>
       <FcEditImage size="75" />
@@ -33,8 +32,7 @@ const Home = () => (
       <FcList size="75" />
       <FcContacts size="75" />
     </p>
-  </div>
-  // </Container>
+  </Container>
 );
 
 export default Home;
